@@ -31,8 +31,8 @@ There is **a lot** going on behind the scenes with that simple `npm start` comma
 ## Challenges
 The app starts out with a number and a button. Clicking the button will increment the number. Lets add some features:
 
-1. Add another button that will decrement the number. Put it to the left of the "Up" button, and put the word "Down" inside of it. You should be able to read and copy what's done for the Up button to work to accomplish this.
-2. Add an input. In the input, should be a number, defaulting to 1. When changing that number, the increment and decrement buttons should then change the count by that much. For example, if I put 5 in the input and press "Up", the number should now go up by 5. You'll need to figure out how to get the value from the input when it changes. [You can read about how to do that using the `onChange` event here.](https://facebook.github.io/react/docs/forms.html#controlled-components)
+1. Add another button that will decrement the number. Put it to the right of the "Up" button, and put the word "Down" inside of it. You should be able to read and copy what's done for the Up button to work to accomplish this.
+2. Add an input to the right of the buttons. The input should be of type `number`, with a default value of 1. When changing that number, clicking the Up and Down buttons should change the count by that much. For example, if I put 5 in the input and press "Up", the number should now go up by 5. You'll need to figure out how to get the value from the input when it changes. [You can read about how to do that using the `onChange` event here.](https://facebook.github.io/react/docs/forms.html#controlled-components)
 3. Make the color of the number change based on whether it's even or odd. If it's even, it should be purple. If it's odd, it should be orange. You'll need to use the `className` attribute for this, and add some CSS to `src/App.css`. [You can read about the `className` attribute in React here.](https://facebook.github.io/react/docs/dom-elements.html)
 
 ## Extra Credit
