@@ -39,4 +39,4 @@ The app starts out with a number and a button. Clicking the button will incremen
 - Install the [React Developer tools chrome extension](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en). After installing them, open up `localhost:3000` while running this project, open up the Chrome developer tools, and find the new "React" tab. Select it, and then click on the `<App>` node in what looks like an HTML tree. Observe what happens when clicking the button. Try changing the `count` state directly through the developer tools and see what happens.
 
 ## Solutions
-You can find a reference solutions for each challenge on branches named `solution-1`, `solution-2` and `solution-3`. Don't look until you absolutely need to! ✊🏽
+After completing all 3 challenges, the [final result should look something like this.](https://lourd.github.io/rc-react-1/) You can find a reference solutions for each challenge on branches named `solution-1`, `solution-2` and `solution-3`. Don't look until you absolutely need to! ✊🏽
